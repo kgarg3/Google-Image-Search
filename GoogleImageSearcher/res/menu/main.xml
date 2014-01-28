@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_search"
+        android:actionViewClass="android.widget.SearchView"
+        android:showAsAction="always"
+        android:title="@string/hintEnterImageQuery"/>
+    
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/ic_settings"
+        android:onClick="onSettingsAction"
+        android:showAsAction="always"
+        android:title="@string/settings">
+    </item>
+
+</menu>
