@@ -4,7 +4,7 @@
         android:id="@+id/action_search"
         android:actionViewClass="android.widget.SearchView"
         android:showAsAction="always"
-        android:title="@string/hintEnterImageQuery"/>
+        android:title="@string/lblSearch"/>
     
     <item
         android:id="@+id/settings"
