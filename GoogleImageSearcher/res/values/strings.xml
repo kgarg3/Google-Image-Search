@@ -2,7 +2,6 @@
 <resources>
 
     <string name="app_name">Image Searcher</string>
-    <string name="hintEnterImageQuery">Image to search</string>
     <string name="lblSearch">Search</string>
     <string name="emptyStr"></string>
     <string name="jsonError">There was an error retrieving results.</string>

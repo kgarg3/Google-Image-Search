@@ -138,13 +138,7 @@ public class MainActivity extends Activity {
 				start = 0;
 				queryString = query;
 				imageAdapter.clear();
-
-				//check if there is a query else alert the user to enter a query. 
-				if(query.equals("")) {
-					alertUser(getString(R.string.hintEnterImageQuery));
-					return false;
-				}
-
+				
 				getDataFromApi();
 				showFiltersApplied();
 				return true;
